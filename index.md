@@ -11,3 +11,4 @@ _ljojoj_
 
 *sus*
 
+[bruh](/breol.html)
