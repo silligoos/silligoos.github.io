@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "(( site.theme ))";
+@import "{{ site.theme }}";
 
 header {
   background: #E79E8F;}
