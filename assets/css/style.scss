@@ -23,6 +23,54 @@ body {
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
 
+  .home {
+    border: 0px solid #566573;
+    background: #808B96;
+    border-radius: 2px;
+    margin-left: 5px;
+    padding: 10px 12px;
+    margin-top: 8px;
+    line-height:14px;
+    font-size:16px;
+    color:#990000;
+    font-weight: bold;
+    display:inline-block;
+    text-align:center;
+  }
+  
+  .homefork {
+    position:fixed;
+    left:50%;
+    margin-left:-350px;
+    padding: 10px 12px;
+    margin-top: 8px;
+    line-height:14px;
+    font-size:16px;
+    background-color: #FFE788;
+  }  
+
+  .photofork {
+    position:fixed;
+    left:50%;
+    margin-left:-271px;
+    padding: 10px 12px;
+    margin-top: 8px;
+    line-height:14px;
+    font-size:16px;
+    background-color: #FFE788;
+  }  
+
+  .blogfork {
+    position:fixed;
+    left:50%;
+    margin-left:-190px;
+    padding: 10px 12px;
+    margin-top: 8px;
+    line-height:14px;
+    font-size:16px;
+    background-color: #FFE788;
+  }  
+
   #logo {
     position:absolute;
     height: 36px;
