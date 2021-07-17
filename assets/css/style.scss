@@ -81,3 +81,97 @@ body {
     background: url(../images/octocat-logo.png);
   }
 }
+
+nav {
+  top: 210px;
+
+  ul {
+    li {
+      &.tag-h2 {
+        font-size: 1.1em;
+        font-family: Courier, monospace; 
+        a {
+          font-weight: bold;
+          color: #555;
+        }
+
+        + .tag-h3 {       }
+      }
+
+      &.tag-h3 {
+        font-size: 1em;
+        font-family: Courier, monospace; 
+
+        a {
+          font-weight: bold;
+          color: #555;
+        }
+
+        + .tag-h2 {
+          margin-top:10px;
+        }
+      }
+    }
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:20px 5px;
+    margin: 0;
+
+    h1 {
+      font-size: 32px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -o-text-overflow: ellipsis;
+      -ms-text-overflow: ellipsis;
+    }
+
+    p { display: none;}
+  }
+
+  #banner {
+    top: 80px;
+
+    .homefork {
+      float: left;
+      display: inline-block;
+      margin-left: 0px;
+    position:fixed;
+    left:5px;
+
+      }
+
+    .photofork {
+      float: left;
+      display: inline-block;
+      margin-left: 0px;
+    position:fixed;
+    left:75px;
+      }
+
+   .blogfork {
+      float: left;
+      display: inline-block;
+      margin-left: 0px;
+    position:fixed;
+    left:146px;
+      }
+ }
+
+  section {
+    margin-top: 130px;
+    margin-bottom: 0px;
+    width: auto;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+}
